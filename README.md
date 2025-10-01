@@ -1,10 +1,13 @@
-📘 Traducción al español del repositorio original [System Design Primer](https://github.com/donnemartin/system-design-primer) de Donne Martin.
+# System Design Primer (Versión en Español)
+
+> 📘 Traducción al español del repositorio original [System Design Primer](https://github.com/donnemartin/system-design-primer) de Donne Martin.
 > Los ejemplos, diagramas y enlaces permanecen iguales, solo se ha traducido el texto al español para facilitar el estudio.
 
+---
 
 ## 📌 Introducción
 
-Este repositorio tiene como objetivo ayudarte a **aprender a diseñar sistemas a gran escala**.
+Este repositorio tiene como objetivo ayudarte a **aprender a diseñar sistemas a gran escala**.  
 El diseño de sistemas es un tema amplio que abarca muchos conceptos: escalabilidad, disponibilidad, balanceo de carga, almacenamiento en caché, bases de datos distribuidas, entre otros.
 
 Este material también está pensado como **guía de preparación para entrevistas técnicas**, ya que muchas compañías tecnológicas incluyen preguntas de diseño de sistemas en sus procesos de selección.
@@ -36,13 +39,11 @@ Aquí encontrarás:
 
 La **escalabilidad** es la capacidad de un sistema de manejar una carga creciente de trabajo de manera eficiente o su habilidad para expandirse y adaptarse a un mayor volumen de datos o tráfico.
 
-Existen dos enfoques principales:
-
 ## Escalado Vertical (Scale Up)
 
 - Consiste en **aumentar los recursos de un solo servidor** (más CPU, más RAM, más almacenamiento).
 - Es relativamente sencillo de implementar.
-- El problema es que existe un **límite físico**.
+- Existe un **límite físico** que impide crecer indefinidamente.
 - Puede resultar **costoso** en hardware especializado.
 
 ## Escalado Horizontal (Scale Out)
@@ -53,7 +54,7 @@ Existen dos enfoques principales:
 
 ## Balanceadores de carga (Load Balancers)
 
-![Load Balancer](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/load-balancer.png)
+![Load Balancer](images/load-balancer.png)
 
 ## Cachés
 
@@ -61,62 +62,79 @@ Ejemplos: **CDN**, **Redis**, **Memcached**.
 
 ## Bases de Datos (SQL vs. NoSQL)
 
-![SQL vs NoSQL](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/sql_vs_nosql.png)
+![SQL vs NoSQL](images/sql_vs_nosql.png)
 
 # 🌐 Bases de datos distribuidas
 
 ## Replicación
 
-![Replication](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/replication.png)
+![Replication](images/replication.png)
 
 ## Particionamiento (Sharding)
 
-![Sharding](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/sharding.png)
+![Sharding](images/sharding.png)
 
 # 💡 Alta disponibilidad y tolerancia a fallos
 
 ## Fail-over (Conmutación por error)
 
-![Failover](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/fail-over.png)
+![Failover](images/fail-over.png)
 
 ## Desacoplamiento y Colas de Mensajes
 
-![Message Queue](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/message-queue.png)
+![Message Queue](images/message-queue.png)
 
 # 🧩 Patrones comunes de diseño
 
 ## Content Delivery Network (CDN)
 
-![CDN](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/cdn.png)
+![CDN](images/cdn.png)
 
 # 📚 Estudios de Caso
 
 ## 1. Acortador de URLs
 
-![URL Shortener](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/url-shortener.png)
+![URL Shortener](images/url-shortener.png)
 
 ## 2. Sistema de mensajería
 
-![Chat System](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/chat-system.png)
+![Chat System](images/chat-system.png)
 
 ## 3. Feed de Noticias
 
-![News Feed](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/news-feed.png)
+![News Feed](images/news-feed.png)
 
 ## 4. Motor de búsqueda
 
-![Search Engine](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/search-engine.png)
+![Search Engine](images/search-engine.png)
 
 ## 5. Servicio de almacenamiento de archivos
 
-![Dropbox](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/dropbox.png)
+![Dropbox](images/dropbox.png)
 
 ## 6. Servicio de video en streaming
 
-![Video Streaming](https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/video-streaming.png)
+![Video Streaming](images/video-streaming.png)
 
 # 📝 Ejercicios prácticos
 
+- Diseñar un sistema de reservas de vuelos
+- Diseñar un sistema de pagos en línea
+- Sistema de almacenamiento de imágenes
+- Sistema de mensajería en tiempo real
+
 # 📚 Recursos adicionales
 
+- [High Scalability](http://highscalability.com/)
+- [Designing Data-Intensive Applications](https://dataintensive.net/)
+- [Awesome Scalability](https://github.com/binhnguyennus/awesome-scalability)
+- [System Design Primer (Original)](https://github.com/donnemartin/system-design-primer)
+
 # ❓ Preguntas frecuentes
+
+- ¿Por qué aprender diseño de sistemas?
+- Diferencia entre SQL y NoSQL
+- Escalabilidad vertical vs horizontal
+- Qué es fail-over
+- Qué son microservicios
+- Cómo usar este repositorio para entrevistas
