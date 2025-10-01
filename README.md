@@ -54,7 +54,7 @@ La **escalabilidad** es la capacidad de un sistema de manejar una carga crecient
 
 ## Balanceadores de carga (Load Balancers)
 
-![Load Balancer](images/load-balancer.png)
+![Load Balancer](/images/jj3A5N8.png)
 
 ## Cachés
 
